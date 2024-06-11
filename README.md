@@ -15,7 +15,7 @@ The `Menu` table stores information about the food items available on the menu.
 - **name**: String - The name of the menu item.
 - **description**: String - A description of the menu item.
 - **category**: String - The category of the menu item (e.g., appetizer, main course).
-
+- **price**: Decimal - The price of the menu item.
 #### 2. Prices Table
 The `Prices` table stores pricing details for each menu item, allowing for different sizes or variations.
 
@@ -31,7 +31,7 @@ The `Orders` table stores details about customer orders, linking them to the men
 - **menu_id**: Integer, Foreign Key - Links to the `menu_id` in the Menu table.
 - **menu**: Integer - The quantity of the menu item ordered.
 - **order_date**: DateTime - The date and time when the order was placed.
-
+-  **Customer**: Text , The details on the person taking the order
 #### 4. Reviews Table
 The `Reviews` table stores reviews given by customers for each menu item.
 
