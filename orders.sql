@@ -1,3 +1,4 @@
+-- orders.sql
 CREATE TABLE Orders (
     order_id INTEGER PRIMARY KEY AUTOINCREMENT,
     customer_id INTEGER,

@@ -1,3 +1,4 @@
+--review_table.sql
 INSERT INTO review (customer_id, menu_id, rating, comment) VALUES
 (1, 1, 4, 'Great pizza!'),
 (2, 2, 5, 'Delicious burger!'),

@@ -1,3 +1,4 @@
+-- customer_table.sql
 INSERT INTO customer (name, email) VALUES
 ('John Ruto', 'john@gmail.com'),
 ('Alice Musyoka', 'alice@gmail.com'),
