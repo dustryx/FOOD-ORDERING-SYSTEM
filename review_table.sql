@@ -1,4 +1,4 @@
-INSERT INTO review (customer_id, menu_id, rating, comment) VALUES
+INSERT INTO reviews (customer_id, menu_id, rating, comment) VALUES
 (1, 1, 4, 'Great pizza!'),
 (2, 2, 5, 'Delicious burger!'),
 (3, 3, 4, 'Tasty pasta.'),

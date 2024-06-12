@@ -1,4 +1,4 @@
-INSERT INTO customer (name, email) VALUES
+INSERT INTO customers (name, email) VALUES
 ('John Ruto', 'john@gmail.com'),
 ('Alice Musyoka', 'alice@gmail.com'),
 ('Bob Odinga', 'bob@gmail.com'),
