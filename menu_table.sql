@@ -1,4 +1,3 @@
--- menu_table.sql
 INSERT INTO menu(item_name,price) VALUES
 ('Pizza', 1098.9),
 ('Burger', 658.9),
